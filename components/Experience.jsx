@@ -39,7 +39,7 @@ export default function Experience() {
 
         <div className="relative border-l border-line pl-8">
           {experience.map((e) => (
-            <div key={e.role} className="relative mb-12 last:mb-0">
+            <div key={e.role} className="relative mb-20 last:mb-0">
               <span className="absolute -left-[2.32rem] top-1.5 h-3 w-3 rounded-full border-2 border-signal bg-ink" />
               <p className="font-mono text-xs uppercase tracking-widest text-mist">
                 {e.period}
