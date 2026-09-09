@@ -1,5 +1,14 @@
 const projects = [
   {
+    tag: 'Full-stack platform',
+    title: 'High-Concurrency Ticket Booking Platform',
+    desc: 'Engineered a production-grade booking platform with JWT authentication, role-based access control, and organiser/customer isolation for multitenant event and show management. Designed transaction-safe seat holds with TTL expiry and concurrency locking to eliminate double-booking under simultaneous requests, plus FIFO waitlist auto-assignment and QR ticket generation.',
+    stack: ['React', 'TypeScript', 'Node.js', 'PostgreSQL', 'Prisma'],
+    metricN: 'Zero',
+    metricL: 'double-bookings under load',
+    href: 'https://github.com/shenal19/ticket-booking-system',
+  },
+  {
     tag: 'Analytics platform',
     title: 'Netflix Analytics & Recommendation Platform',
     desc: 'Engineered Python ETL pipelines processing 50k+ records, then layered advanced SQL analytics on top to surface churn, engagement, and revenue signals through interactive Power BI dashboards.',
