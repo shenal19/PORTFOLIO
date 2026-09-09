@@ -1,11 +1,11 @@
 const roles = [
   {
     date: 'Mar 2026 — May 2026',
-    title: 'Data Science & Machine Learning Trainee',
-    org: 'Skillumni · Remote, Training Internship',
+    title: 'Data Science with Python Trainee',
+    org: 'Skillumni Technologies · Remote, Training Internship',
     points: [
-      'Performed data preprocessing, EDA, and feature engineering across 5+ datasets.',
-      'Completed project-based training in Python, SQL, and machine learning, building and delivering a SQL-based data analysis project.',
+      'Performed data preprocessing, EDA, and feature engineering across 5+ datasets to surface actionable insights for downstream modeling.',
+      'Delivered a SQL-based analytics capstone project as part of project-based training in Python, SQL, and machine learning.',
     ],
   },
   {
@@ -19,11 +19,11 @@ const roles = [
   },
   {
     date: 'Jun 2024 — Jul 2024',
-    title: 'Data Science with Python Trainee',
+    title: 'Internship Trainee – Data Analysis',
     org: 'Coincent.ai · Remote, Training Internship',
     points: [
-      'Completed a project-based industrial training program in Data Science with Python.',
-      'Covered data analysis, statistical methods, and machine learning fundamentals under industry mentorship.',
+      'Conducted a housing market data analysis in Python, applying EDA, correlation/regression analysis, and visualization (Pandas, Matplotlib, Seaborn) to identify price drivers.',
+      'Built foundational Python data-analysis skills spanning preprocessing, EDA, and visualization workflows.',
     ],
   },
 ];
